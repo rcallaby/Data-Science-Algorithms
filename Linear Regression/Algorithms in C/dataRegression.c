@@ -40,7 +40,7 @@ void coefficient(struct dataPoint data[], int n)
 }
 
 
-// ? There is an issue in the main() program? Weird.
+
 int main()
 {
     int n = 5;
