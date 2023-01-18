@@ -3,7 +3,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-// TODO: Fix the error and possibly come up with some more tests
+// TODO: Come up with some more tests
 
 struct dataPoint {
     int x;
@@ -44,7 +44,7 @@ void coefficient(struct dataPoint data[], int n)
 int main()
 {
     int n = 5;
-    struct dataPoint data[n];
+    struct dataPoint data[10];
     data[0].x = 0;
     data[0].y = 2;
     data[1].x = 1;
