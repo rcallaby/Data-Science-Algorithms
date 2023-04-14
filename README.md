@@ -25,3 +25,15 @@ As a data scientist, it is important to have a strong understanding of the key a
 [K-Means Clustering](https://en.wikipedia.org/wiki/K-means_clustering): K-Means is a type of unsupervised learning algorithm used for clustering problems. It works by partitioning the data into k clusters, where each cluster is represented by its centroid (i.e., the mean of the data points in the cluster).
 
 These are some of the key algorithms that every data scientist should know. However, there are many more algorithms available, and the choice of algorithm will depend on the specific problem you are trying to solve. It's important to have a good understanding of the strengths and weaknesses of each algorithm so that you can choose the right one for your problem.
+
+### Table of Contents
++ ChaptGPT Examples
++ Decision Trees
++ Gradient Boosting
++ K Nearest Neighbors
++ K Means Clustering
++ Linear Regression
++ Logistic Regression
++ Naive Bayes
++ Neural Networks
++ Support Vector Machine
