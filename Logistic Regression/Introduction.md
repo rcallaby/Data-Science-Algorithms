@@ -1,4 +1,4 @@
-<strong>Logistic Regression</strong>
+# Logistic Regression
 
 
 Logistic regression is a type of statistical analysis that is used to predict the outcome of a binary dependent variable based on one or more independent variables. It is a type of classification algorithm that is often used in the field of data science, particularly when dealing with large datasets.

@@ -1,4 +1,4 @@
-<strong>Linear Regression</strong>
+# Linear Regression
 
 Linear regression is a statistical method used to model the linear relationship between a dependent variable (also known as the response variable) and one or more independent variables (also known as predictors). The goal of linear regression is to find the line of best fit that can be used to predict the value of the dependent variable based on the values of the independent variables.
 
@@ -10,6 +10,7 @@ The third concept is the standard deviation, which is the square root of the var
 
 Now that we have covered these basic concepts, we can move on to linear regression. Linear regression is used to model the linear relationship between a dependent variable and one or more independent variables. A linear relationship means that the change in the dependent variable is directly proportional to the change in the independent variable.
 
+## How it works
 To model a linear relationship, we need to find the line of best fit that represents the relationship between the dependent variable and the independent variable. The line of best fit is a line that is as close as possible to all of the data points in the dataset. There are a few different ways to find the line of best fit, but the most common method is the least squares method.
 
 The least squares method works by finding the line that minimizes the sum of the squared differences between the data points and the line. In other words, it finds the line that makes the difference between the predicted value and the actual value as small as possible.
@@ -26,4 +27,5 @@ To do this, we plug the value of the independent variable (1,000 square feet) in
 
 So, to predict the price of a 1,000 square foot house, we would plug 1,000 into the equation for the line of best fit in place of x. The resulting value would be the predicted price of the house.
 
+## Conclusion
 Linear regression is a powerful tool that can be used to model the relationship between different variables and make predictions based on that relationship. It is a simple and widely used statistical technique that is easy to understand and implement, making it a great choice for students new to data science.
