@@ -1,4 +1,4 @@
-<strong>K Nearest Neighbors</strong>
+# K Nearest Neighbors
 
 K Nearest Neighbors, or KNN, is a simple and effective machine learning algorithm used for classification and regression tasks. It is a non-parametric and lazy learning algorithm, which means it does not make any assumptions on the underlying data distribution and it does not learn a model. Instead, it stores all the training data and makes predictions based on the similarity between new data points and the stored training data.
 
@@ -17,5 +17,7 @@ However, KNN has some limitations as well. One of the main limitations is that i
 Another limitation of KNN is that it is sensitive to the scale of the features. For example, if one feature has a much larger scale than the other features, it will dominate the distance calculation and have a larger influence on the prediction. To address this issue, it is recommended to scale the features before training the model.
 
 KNN is a good algorithm to use as a baseline for comparison with other more complex algorithms. It is also a good algorithm to use when the relationships between the features and the target are not well understood, as it does not make any assumptions about the underlying data distribution.
+
+# Conclusion
 
 In summary, K Nearest Neighbors is a simple and effective machine learning algorithm that is used for classification and regression tasks. It is easy to implement and performs well on small datasets, but it has some limitations such as the need for a large amount of memory and the sensitivity to the scale of the features. It is a good algorithm to use as a baseline for comparison with other algorithms and when the relationships between the features and the target are not well understood.
