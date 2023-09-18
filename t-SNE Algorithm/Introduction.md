@@ -2,20 +2,20 @@
 
 t-Distributed Stochastic Neighbor Embedding (t-SNE) is a powerful dimensionality reduction technique used primarily for visualizing high-dimensional data. It was introduced by Laurens van der Maaten and Geoffrey Hinton in 2008 and has since become a popular tool in various fields, including machine learning, data analysis, and natural language processing.
 
-Origins
+### Origins
 Motivation for Dimensionality Reduction
 
 In machine learning and data analysis, datasets often contain a large number of features or dimensions. Visualizing and analyzing data in high-dimensional spaces can be challenging for humans. Moreover, many algorithms perform poorly or become computationally expensive in high-dimensional spaces, a phenomenon known as the "curse of dimensionality."
 
 Dimensionality reduction techniques aim to alleviate these issues by transforming data from a high-dimensional space to a lower-dimensional space while preserving as much relevant information as possible.
 
-Linear vs. Nonlinear Dimensionality Reduction
+### Linear vs. Nonlinear Dimensionality Reduction
 
 Traditional techniques like Principal Component Analysis (PCA) perform linear dimensionality reduction. They focus on finding linear combinations of the original features that explain the most variance in the data. While PCA is effective, it may not capture complex, nonlinear relationships present in the data.
 
 t-SNE, on the other hand, is a nonlinear dimensionality reduction technique. It aims to maintain local relationships between data points in the high-dimensional space, making it particularly useful for visualizing complex, clustered data.
 
-The t-SNE Algorithm
+#### The t-SNE Algorithm
 Basic Idea
 
 t-SNE works by modeling the probability distributions of pairwise similarities between data points in both the high-dimensional and low-dimensional spaces. It minimizes the Kullback-Leibler (KL) divergence between these distributions, effectively bringing similar points close together and dissimilar points apart in the lower-dimensional space.
@@ -47,7 +47,7 @@ Initialize Low-Dimensional Embedding: Randomly initialize a low-dimensional embe
 
 Optimization: Minimize the KL divergence between the high-dimensional and low-dimensional affinities. This is typically done using gradient descent.
 
-Applications
+### Applications
 
 Visualizing High-Dimensional Data: t-SNE is widely used for visualizing complex datasets, making it easier for humans to grasp the underlying structure.
 
@@ -61,7 +61,7 @@ Natural Language Processing: Visualizing word embeddings and document embeddings
 
 Bioinformatics: Analyzing gene expression data and single-cell RNA sequencing data.
 
-Potential Drawbacks
+### Potential Drawbacks
 
 Non-Deterministic: t-SNE is non-deterministic, meaning that different runs on the same data can yield slightly different results. This can make it challenging to reproduce visualizations.
 

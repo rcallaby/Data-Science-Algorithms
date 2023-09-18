@@ -7,7 +7,7 @@ What are Factorization Machines?
 
 At its core, a Factorization Machine is a linear model with an additional capability to capture interactions between features. Traditional linear models are limited in their ability to model complex interactions between variables. FMs address this limitation by using factorized parameters to model interactions in a more flexible and expressive manner.
 
-Components of Factorization Machines
+### Components of Factorization Machines
 
 A Factorization Machine combines the strengths of linear models and matrix factorization techniques. It is composed of two main components:
 
@@ -15,7 +15,7 @@ Linear Model: This part of the model is similar to a traditional linear regressi
 
 Factorized Interaction Terms: FMs go beyond the linear model by introducing factorized interaction terms. These terms allow the model to capture interactions between pairs of features.
 
-Factorization Machines Equation
+#### Factorization Machines Equation
 
 The equation for a Factorization Machine can be written as:
 
@@ -29,22 +29,24 @@ wiwi​ are the linear weights for feature xixi​.
 vivi​ are the factorized weights for feature xixi​.
 ⟨vi,vj⟩⟨vi​,vj​⟩ denotes the dot product of the factorized weights
 
-Applications of Factorization Machines
-1. Recommendation Systems
+### Applications of Factorization Machines
+Recommendation Systems
 
 FMs are widely used in recommendation systems. They can effectively model user-item interactions, allowing for personalized recommendations in scenarios like e-commerce, content streaming, and social networks.
-2. Click-Through Rate (CTR) Prediction
+
+Click-Through Rate (CTR) Prediction
 
 In online advertising, predicting the likelihood of a user clicking on an ad is crucial. FMs excel at capturing complex relationships between user features, ad features, and their interactions.
-3. Text Classification
+
+Text Classification
 
 FMs can be used for tasks like sentiment analysis or document classification, where interactions between words or features are essential for accurate predictions.
 
-4. Collaborative Filtering
+Collaborative Filtering
 
 Factorization Machines can be employed in collaborative filtering, a technique used in recommendation systems to predict user preferences based on the preferences of similar users.
 
-Potential Drawbacks
+### Potential Drawbacks
 
 While Factorization Machines are a powerful tool, they do have some limitations:
 
@@ -56,7 +58,7 @@ Hyperparameter Tuning: Choosing the right hyperparameters for an FM model can be
 
 Sparse Data Handling: FMs may not perform as well on extremely sparse datasets, as they rely on interactions between features.
 
-Conclusion
+# Conclusion
 
 Factorization Machines are a versatile class of models that excel at capturing complex interactions in data. They have found applications in recommendation systems, click-through rate prediction, text classification, and collaborative filtering. While they have certain drawbacks, their strengths in modeling interactions make them a valuable tool in the data scientist's toolkit.
 
